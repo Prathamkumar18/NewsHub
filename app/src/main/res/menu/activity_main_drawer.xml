@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bbcFragment"
+            android:icon="@drawable/bbc"
+            android:title="BBC"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/cnnFragment"
+            android:icon="@drawable/cnn"
+            android:title="CNN"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/foxFragment"
+            android:icon="@drawable/fox"
+            android:title="Fox News"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/telegraphFragment"
+            android:icon="@drawable/telegraph"
+            android:title="The Telegraph"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/skyFragment"
+            android:icon="@drawable/sky"
+            android:title="Sky News"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/cricFragment"
+            android:icon="@drawable/ic_baseline_sports_cricket_24"
+            android:title="Cricket News"
+            android:menuCategory="secondary"/>
+    </group>
+    <item android:title="Help Center"
+        android:menuCategory="secondary">
+        <menu>
+            <item android:id="@+id/help"
+                android:title="HELP"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:menuCategory="secondary"
+                />
+        </menu>
+    </item>
+</menu>

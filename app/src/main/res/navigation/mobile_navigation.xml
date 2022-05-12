@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/bbcFragment">
+
+    <fragment
+        android:id="@+id/bbcFragment"
+        android:name="com.example.nav.ui.BBC.HomeFragment"
+        android:label="BBC News"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/cnnFragment"
+        android:name="com.example.nav.ui.CNN.GalleryFragment"
+        android:label="CNN News"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/foxFragment"
+        android:name="com.example.nav.ui.FOX.SlideshowFragment"
+        android:label="FOX News"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/telegraphFragment"
+        android:name="com.example.nav.Fragment.Toi"
+        android:label="Telegraph News"
+        tools:layout="@layout/fragment_telegraph" />
+    <fragment
+        android:id="@+id/skyFragment"
+        android:name="com.example.nav.Fragment.Sky"
+        android:label="SKY News"
+        tools:layout="@layout/fragment_sky" />
+    <fragment
+        android:id="@+id/cricFragment"
+        android:name="com.example.nav.Fragment.CricFragment"
+        android:label="CRICKET"
+        tools:layout="@layout/fragment_cric" />
+</navigation>
